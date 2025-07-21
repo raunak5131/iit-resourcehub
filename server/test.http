@@ -1,0 +1,25 @@
+### Add a new user
+POST http://localhost:5000/api/users
+Content-Type: application/json
+### Get all users
+GET http://localhost:5000/api/users
+
+{
+  "name": "Raunak",
+  "email": "raunak@example.com",
+  "bio": "I love robotics",
+  "avatar": "https://example.com/image.jpg",
+  "department": "CSE",
+  "program": "B.Tech",
+  "year": 2
+}
+### Add Event
+POST http://localhost:5000/api/events
+Content-Type: application/json
+
+{
+  "title": "AI Workshop",
+  "description": "A hands-on workshop on building AI apps.",
+  "date": "2025-07-20",
+  "location": "LT-2"
+}
